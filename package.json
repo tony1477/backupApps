@@ -1,0 +1,31 @@
+{
+  "name": "backupapps",
+  "version": "1.0.0",
+  "description": "Application for Backup report using nodejs and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "backup file",
+    "report backup",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Martoni F",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.7",
+    "@hapi/inert": "^7.1.0",
+    "luxon": "^3.4.4",
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
